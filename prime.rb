@@ -4,4 +4,5 @@ new_arr = (-num...num).to_a
 prime = num % 2 
 
 new_arr.collect do |prime_arr|
+  if prime == 0 
   
