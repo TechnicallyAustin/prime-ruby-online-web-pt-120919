@@ -1,6 +1,6 @@
 def prime?(num)
 i = 2
-new_arr = (-num...num).to_a
+new_arr = (-100...100).to_a
 prime = num % 2 
 
 new_arr.collect do |prime_arr|
