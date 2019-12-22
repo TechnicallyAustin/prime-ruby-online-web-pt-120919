@@ -1,5 +1,8 @@
 def prime?(num)
-  by_three = num / 3
+by_two = num % 2 
+while by_two == 0 do
+  by_two / 2
+  
   
   
   
