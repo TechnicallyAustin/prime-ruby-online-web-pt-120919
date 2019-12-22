@@ -1,11 +1,11 @@
 def prime?(num)
 i = 2
 prime = num % 2 
-range = (-3..(num - 1))
+range = (-2..(num - 1)).to_a
 
-range.collect do|primes|
-if prime == 0 
-  return true
+range.collect do |primes|
+  if num % range != 0
+new_arr << primes
 end
 end
 
