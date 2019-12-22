@@ -5,3 +5,4 @@ if by_two == 0 && num != 2
 else
   nil
 end
+end
