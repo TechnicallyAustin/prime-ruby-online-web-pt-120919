@@ -8,6 +8,7 @@ range.collect do |primes|
     new_arr << primes
 end
 end
+end
 
     
     
