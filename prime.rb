@@ -1,6 +1,7 @@
 def prime?(num)
 by_two = num % 2
-while num
-  
-  
+if by_two == 0 && num != 2
+  TRUE
+else
+  nil
 end
